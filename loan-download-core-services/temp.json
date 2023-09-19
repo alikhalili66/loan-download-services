@@ -1,0 +1,519 @@
+{
+	"inquiryDetailsResponseDtos": [
+		{
+			"type": "IRANIAN_BASE",
+			"result": {
+				"data": {
+					"personInformation": {
+						"dateOfBirth": "1375/07/11",
+						"family": "ذكريائي",
+						"fatherName": "ميراكبر",
+						"maritalStatus": "مجرد",
+						"maritalStatusCode": "0106333",
+						"placeOfBirth": "ارومیه",
+						"placeOfBirthCode": "0105100133",
+						"sex": "زن",
+						"sexCode": "0109333",
+						"name": "مائده",
+						"nationalCode": "2741184062",
+						"address": "نامشخص",
+						"contacts": [
+							{
+								"title": "تلفن ثابت",
+								"value": " 04413362235-09033592851 "
+							},
+							{
+								"title": "تلفن ثابت",
+								"value": " - "
+							}
+						],
+						"hasBlockedContract": false
+					},
+					"inquiryStats": [
+						{
+							"organizationType": "بانک مرکزی",
+							"organizationTypeCode": "0102533",
+							"lastMonthInquiryCount": 0,
+							"lastYearInquiryCount": 0,
+							"personNegativeStatusCount": 0,
+							"contractNegativeStatusCount": 0
+						},
+						{
+							"organizationType": "بانک ها و موسسات اعتباری",
+							"organizationTypeCode": "010333",
+							"lastMonthInquiryCount": 0,
+							"lastYearInquiryCount": 1,
+							"personNegativeStatusCount": 0,
+							"contractNegativeStatusCount": 0
+						},
+						{
+							"organizationType": "تلکام/سازمان هاي خدماتی",
+							"organizationTypeCode": "0108933",
+							"lastMonthInquiryCount": 0,
+							"lastYearInquiryCount": 0,
+							"personNegativeStatusCount": 0,
+							"contractNegativeStatusCount": 0
+						},
+						{
+							"organizationType": "سازمان های خرده فروشی",
+							"organizationTypeCode": "0106633",
+							"lastMonthInquiryCount": 0,
+							"lastYearInquiryCount": 0,
+							"personNegativeStatusCount": 0,
+							"contractNegativeStatusCount": 0
+						},
+						{
+							"organizationType": "سازمان های عمومی/دولتی",
+							"organizationTypeCode": "01010233",
+							"lastMonthInquiryCount": 0,
+							"lastYearInquiryCount": 0,
+							"personNegativeStatusCount": 0,
+							"contractNegativeStatusCount": 0
+						},
+						{
+							"organizationType": "سازمان های قضايی",
+							"organizationTypeCode": "01012233",
+							"lastMonthInquiryCount": 0,
+							"lastYearInquiryCount": 0,
+							"personNegativeStatusCount": 0,
+							"contractNegativeStatusCount": 0
+						},
+						{
+							"organizationType": "مصرف کنندگان",
+							"organizationTypeCode": "01010033",
+							"lastMonthInquiryCount": 0,
+							"lastYearInquiryCount": 0,
+							"personNegativeStatusCount": 0,
+							"contractNegativeStatusCount": 0
+						},
+						{
+							"organizationType": "موسسات اعتباري غير متشکل",
+							"organizationTypeCode": "0103033",
+							"lastMonthInquiryCount": 0,
+							"lastYearInquiryCount": 0,
+							"personNegativeStatusCount": 0,
+							"contractNegativeStatusCount": 0
+						},
+						{
+							"organizationType": "موسسات صادر کننده کارت اعتباری",
+							"organizationTypeCode": "0104433",
+							"lastMonthInquiryCount": 0,
+							"lastYearInquiryCount": 0,
+							"personNegativeStatusCount": 0,
+							"contractNegativeStatusCount": 0
+						}
+					],
+					"personRoles": [
+						{
+							"title": "متقاضی اصلی",
+							"numberOfContracts": 0,
+							"code": "0101333"
+						},
+						{
+							"title": "ضامن",
+							"numberOfContracts": 0,
+							"code": "0109433"
+						}
+					],
+					"summaryInformationRelatedToContracts": [
+						{
+							"organizationName": "بانک ملت",
+							"organizationNameCode": "0201271",
+							"currency": "ریال",
+							"currencyCode": "0102933",
+							"inProgressContractsCount": 0,
+							"terminatedContractsCount": 1,
+							"outstandingAmount": 0.0,
+							"overdueAmount": 0.0,
+							"typeOfFinancing": "تسهیلات",
+							"typeOfFinancingCode": "010233"
+						}
+					],
+					"summaryInformationRelatedToContractsSum": [
+						{
+							"currency": "ریال",
+							"currencyCode": "0102933",
+							"outstandingAmount": 0.0,
+							"overdueAmount": 0.0,
+							"inProgressContractsCount": 0,
+							"terminatedContractsCount": 1
+						}
+					],
+					"inquiryCreatedDate": "1402/03/07 17:38:43",
+					"reportUniqueId": "4000 4080 3000 0530 8706"
+				},
+				"message": {
+					
+				},
+				"messageList": [],
+				"total": null,
+				"status": 200
+			},
+			"inquiryStatus": "DONE",
+			"responseTime": 0
+		},
+		{
+			"type": "IRANIAN_STANDARD",
+			"result": {
+				"data": {
+					"directContracts": [
+						{
+							"organizationName": "بانک ملت",
+							"organizationNameCode": "0101233",
+							"organizationType": "بانک ها و موسسات اعتباری",
+							"organizationTypeCode": "010333",
+							"contractNumber": "9585267864",
+							"contractCurrency": "ریال",
+							"contractCurrencyCode": "0102933",
+							"installmentsCurrency": "ریال",
+							"installmentsCurrencyCode": "0102933",
+							"customerRoleTilte": "متقاضی اصلی",
+							"customerRole": 13,
+							"customerRoleCode": "0101333",
+							"expectedEndDate": "1398/07/02",
+							"instalmentAmount": 1199093.0,
+							"paymentMethod": "حساب جاری",
+							"paymentMethodCode": "01011133",
+							"negativeContractStatus": "فاقد وضعیت منفی",
+							"negativeContractStatusCode": "0104033",
+							"outstandingAmount": 0.0,
+							"overdueAmount": 0.0,
+							"paymentPeriodicity": "پرداخت در پایان قرارداد",
+							"paymentPeriodicityCode": "0104633",
+							"phaseOfOperationTitle": "خاتمه یافته عادی طبق قرارداد",
+							"phaseOfOperation": 112,
+							"phaseOfOperationCode": "01011233",
+							"purposeOfTheCredit": "سایر",
+							"purposeOfTheCreditCode": "0107933",
+							"accountingDate": "1398/08/29",
+							"startDate": "1395/06/15",
+							"totalAmount": 1.96554442E8,
+							"typeOfFinancingTitle": "سایر",
+							"typeOfFinancing": 2,
+							"typeOfFinancingCode": "010233",
+							"typeofInstallments": "اقساط ثابت",
+							"typeofInstallmentsCode": "0105733",
+							"realEndDate": "1398/08/20",
+							"totalNumberOfInstallments": 36,
+							"totalNumberOfOverdue": 0,
+							"totalNumberOfOutstanding": 0,
+							"guarantees": [
+								{
+									"value": 1.5E8,
+									"type": "سایر",
+									"typeCode": null,
+									"currency": "ریال",
+									"currencyCode": null
+								}
+							],
+							"relatedPersons": [],
+							"repayments": [],
+							"contractStartDateIsTransactionType": false
+						}
+					],
+					"contractNegativeStatus": [
+						{
+							"customerRole": 13,
+							"customerRoleCode": "0101333",
+							"contractCode": "9585267864",
+							"organizationName": "بانک ملت",
+							"organizationNameCode": "0101233",
+							"organizationType": "بانک ها و موسسات اعتباری",
+							"organizationTypeCode": "010333",
+							"date": "1398/05/02",
+							"state": "سررسید گذشته",
+							"stateCode": "0106133"
+						},
+						{
+							"customerRole": 13,
+							"customerRoleCode": "0101333",
+							"contractCode": "9585267864",
+							"organizationName": "بانک ملت",
+							"organizationNameCode": "0101233",
+							"organizationType": "بانک ها و موسسات اعتباری",
+							"organizationTypeCode": "010333",
+							"date": "1397/02/30",
+							"state": "سررسید گذشته",
+							"stateCode": "0106133"
+						},
+						{
+							"customerRole": 13,
+							"customerRoleCode": "0101333",
+							"contractCode": "9585267864",
+							"organizationName": "بانک ملت",
+							"organizationNameCode": "0101233",
+							"organizationType": "بانک ها و موسسات اعتباری",
+							"organizationTypeCode": "010333",
+							"date": "1397/02/21",
+							"state": "سررسید گذشته",
+							"stateCode": "0106133"
+						},
+						{
+							"customerRole": 13,
+							"customerRoleCode": "0101333",
+							"contractCode": "9585267864",
+							"organizationName": "بانک ملت",
+							"organizationNameCode": "0101233",
+							"organizationType": "بانک ها و موسسات اعتباری",
+							"organizationTypeCode": "010333",
+							"date": "1396/09/29",
+							"state": "سررسید گذشته",
+							"stateCode": "0106133"
+						},
+						{
+							"customerRole": 13,
+							"customerRoleCode": "0101333",
+							"contractCode": "9585267864",
+							"organizationName": "بانک ملت",
+							"organizationNameCode": "0101233",
+							"organizationType": "بانک ها و موسسات اعتباری",
+							"organizationTypeCode": "010333",
+							"date": "1396/09/14",
+							"state": "سررسید گذشته",
+							"stateCode": "0106133"
+						}
+					],
+					"personNegativeStatus": [
+						{
+							"contractCode": null,
+							"organizationName": "بانک ملت",
+							"organizationNameCode": "0101233",
+							"organizationType": "بانک ها و موسسات اعتباری",
+							"organizationTypeCode": "010333",
+							"date": "1397/06/14",
+							"state": "فاقد وضعیت منفی",
+							"stateCode": "01015633"
+						}
+					],
+					"personInformation": {
+						"dateOfBirth": "1375/07/11",
+						"family": "ذكريائي",
+						"fatherName": "ميراكبر",
+						"maritalStatus": "مجرد",
+						"maritalStatusCode": "0106333",
+						"placeOfBirth": "ارومیه",
+						"placeOfBirthCode": "0105100133",
+						"sex": "زن",
+						"sexCode": "0109333",
+						"name": "مائده",
+						"nationalCode": "2741184062",
+						"address": "نامشخص",
+						"contacts": [
+							{
+								"title": "تلفن ثابت",
+								"value": " 04413362235-09033592851 "
+							},
+							{
+								"title": "تلفن ثابت",
+								"value": " - "
+							}
+						],
+						"hasBlockedContract": false
+					},
+					"inquiryStats": [
+						{
+							"organizationType": "بانک مرکزی",
+							"organizationTypeCode": "0102533",
+							"lastMonthInquiryCount": 0,
+							"lastYearInquiryCount": 0,
+							"personNegativeStatusCount": 0,
+							"contractNegativeStatusCount": 0
+						},
+						{
+							"organizationType": "بانک ها و موسسات اعتباری",
+							"organizationTypeCode": "010333",
+							"lastMonthInquiryCount": 0,
+							"lastYearInquiryCount": 1,
+							"personNegativeStatusCount": 0,
+							"contractNegativeStatusCount": 0
+						},
+						{
+							"organizationType": "تلکام/سازمان هاي خدماتی",
+							"organizationTypeCode": "0108933",
+							"lastMonthInquiryCount": 0,
+							"lastYearInquiryCount": 0,
+							"personNegativeStatusCount": 0,
+							"contractNegativeStatusCount": 0
+						},
+						{
+							"organizationType": "سازمان های خرده فروشی",
+							"organizationTypeCode": "0106633",
+							"lastMonthInquiryCount": 0,
+							"lastYearInquiryCount": 0,
+							"personNegativeStatusCount": 0,
+							"contractNegativeStatusCount": 0
+						},
+						{
+							"organizationType": "سازمان های عمومی/دولتی",
+							"organizationTypeCode": "01010233",
+							"lastMonthInquiryCount": 0,
+							"lastYearInquiryCount": 0,
+							"personNegativeStatusCount": 0,
+							"contractNegativeStatusCount": 0
+						},
+						{
+							"organizationType": "سازمان های قضايی",
+							"organizationTypeCode": "01012233",
+							"lastMonthInquiryCount": 0,
+							"lastYearInquiryCount": 0,
+							"personNegativeStatusCount": 0,
+							"contractNegativeStatusCount": 0
+						},
+						{
+							"organizationType": "مصرف کنندگان",
+							"organizationTypeCode": "01010033",
+							"lastMonthInquiryCount": 0,
+							"lastYearInquiryCount": 0,
+							"personNegativeStatusCount": 0,
+							"contractNegativeStatusCount": 0
+						},
+						{
+							"organizationType": "موسسات اعتباري غير متشکل",
+							"organizationTypeCode": "0103033",
+							"lastMonthInquiryCount": 0,
+							"lastYearInquiryCount": 0,
+							"personNegativeStatusCount": 0,
+							"contractNegativeStatusCount": 0
+						},
+						{
+							"organizationType": "موسسات صادر کننده کارت اعتباری",
+							"organizationTypeCode": "0104433",
+							"lastMonthInquiryCount": 0,
+							"lastYearInquiryCount": 0,
+							"personNegativeStatusCount": 0,
+							"contractNegativeStatusCount": 0
+						}
+					],
+					"personRoles": [
+						{
+							"title": "متقاضی اصلی",
+							"numberOfContracts": 0,
+							"code": "0101333"
+						},
+						{
+							"title": "ضامن",
+							"numberOfContracts": 0,
+							"code": "0109433"
+						}
+					],
+					"summaryInformationRelatedToContracts": [
+						{
+							"organizationName": "بانک ملت",
+							"organizationNameCode": "0201271",
+							"currency": "ریال",
+							"currencyCode": "0102933",
+							"inProgressContractsCount": 0,
+							"terminatedContractsCount": 1,
+							"outstandingAmount": 0.0,
+							"overdueAmount": 0.0,
+							"typeOfFinancing": "تسهیلات",
+							"typeOfFinancingCode": "010233"
+						}
+					],
+					"summaryInformationRelatedToContractsSum": [
+						{
+							"currency": "ریال",
+							"currencyCode": "0102933",
+							"outstandingAmount": 0.0,
+							"overdueAmount": 0.0,
+							"inProgressContractsCount": 0,
+							"terminatedContractsCount": 1
+						}
+					],
+					"inquiryCreatedDate": "1402/03/07 17:37:29",
+					"reportUniqueId": "4000 4080 3000 0533 8604"
+				},
+				"message": {
+					
+				},
+				"messageList": [],
+				"total": null,
+				"status": 200
+			},
+			"inquiryStatus": "DONE",
+			"responseTime": 0
+		},
+		{
+			"type": "IRANIAN_ADVANCE",
+			"result": {
+				"data": null,
+				"message": {
+					"5b0200ef-7878-40e9-b19d-0d5817c94278": "اطلاعات موجود برای تولید این گزارش ناکافی است"
+				},
+				"messageList": [
+					"اطلاعات موجود برای تولید این گزارش ناکافی است"
+				],
+				"total": null,
+				"status": 404
+			},
+			"inquiryStatus": "DONE",
+			"responseTime": 0
+		},
+		{
+			"type": "IRANIAN_SCORE",
+			"result": {
+				"data": {
+					"personInformation": {
+						"dateOfBirth": "1375/07/11",
+						"family": "ذكريائي",
+						"fatherName": "ميراكبر",
+						"maritalStatus": "مجرد",
+						"maritalStatusCode": "0106333",
+						"placeOfBirth": "ارومیه",
+						"placeOfBirthCode": "0105100133",
+						"sex": "زن",
+						"sexCode": "0109333",
+						"name": "مائده",
+						"nationalCode": "2741184062",
+						"address": "نامشخص",
+						"contacts": [
+							{
+								"title": "تلفن ثابت",
+								"value": " 04413362235-09033592851 "
+							},
+							{
+								"title": "تلفن ثابت",
+								"value": " - "
+							}
+						],
+						"hasBlockedContract": false
+					},
+					"scoreCodes": [
+						{
+							"code": "NMG2",
+							"description": "پایین بودنِ تعداد ماههای دارای پرداخت خوب در حداقل یک قرارداد"
+						},
+						{
+							"code": "AGE1",
+							"description": "گروه سنی جوان"
+						},
+						{
+							"code": "HAD2",
+							"description": "مبلغ بدهی سررسیدشده پرداخت نشده بیش از 10 میلیون ریال در 5 ماه آخر می باشد‬‬"
+						},
+						{
+							"code": "RNE3",
+							"description": "دارای وضعیت منفی قرارداد در 12 ماه گذشته"
+						}
+					],
+					"score": 624,
+					"perviouScore": true,
+					"perviouScoreDate": "1398/08/29",
+					"description": "  ریسک کم",
+					"risk": "B1",
+					"inquiryCreatedDate": "1402/03/07 17:37:05",
+					"reportUniqueId": "2000 4080 3000 0534 8607"
+				},
+				"message": {
+					
+				},
+				"messageList": [],
+				"total": null,
+				"status": 200
+			},
+			"inquiryStatus": "DONE",
+			"responseTime": 0
+		}
+	],
+	"inquiryID": "2741184062-20230521"
+}

@@ -1,0 +1,22 @@
+{
+	"port": 8089,
+	"isMock": true,
+	"agentId": 2,
+	"userId": 5,
+	"dbConfig": {
+		"url": "jdbc:oracle:thin:@(DESCRIPTION= (ADDRESS=(PROTOCOL=TCP)(HOST=192.168.251.58)(PORT=1625)) (CONNECT_DATA=(SERVICE_NAME=APPTEST)))",
+		"username": "NAS",
+		"password": "HgftrV43#hPwAzsQ"
+	},
+	"lockin": {
+		"port": 8081,
+		"host": "192.168.251.112",
+		"APIKEY": "06062a382e7844638527485cc2a40d038466f61fe6a158b5268bf1cc0200c9d70a21911f14bb84dea5ccebb364aa8ee3"
+	},
+	"lotus": {
+		"port": 8080,
+		"host": "192.168.251.112",
+		"url": "/lotus"
+	},
+	"docs": "/opt/apprepo/loan"
+}
