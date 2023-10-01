@@ -10,7 +10,6 @@ import io.vertx.core.AbstractVerticle;
 import io.vertx.core.AsyncResult;
 import io.vertx.core.Future;
 import io.vertx.core.Handler;
-import io.vertx.core.Promise;
 import io.vertx.core.Vertx;
 import io.vertx.core.json.JsonArray;
 import io.vertx.core.json.JsonObject;
@@ -33,7 +32,7 @@ public class VRTCL_16_DownloadCreditReportNaturalPerson extends AbstractVerticle
     private final String address = AppConstants.EVNT_BUS_ADR_SRVCS_REQ_CREDIT_REPORT_NATURAL_PERSON;
 
     @Override
-    public void start(Promise<Void> startPromise) throws Exception {
+    public void start() throws Exception {
 
         logger.info("Starting verticle " + this.getClass().getSimpleName());
 

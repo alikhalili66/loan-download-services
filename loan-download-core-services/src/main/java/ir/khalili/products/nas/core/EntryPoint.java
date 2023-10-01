@@ -1,5 +1,9 @@
 package ir.khalili.products.nas.core;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Properties;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
@@ -12,6 +16,8 @@ import java.nio.charset.StandardCharsets;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 
+import io.vertx.core.CompositeFuture;
+import io.vertx.core.Future;
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.DeploymentOptions;
 import io.vertx.core.Promise;
@@ -110,8 +116,40 @@ public class EntryPoint extends AbstractVerticle {
 
     private static void deployVerticle() {
 
-        vertx.deployVerticle(VRTCL_16_DownloadCreditReportNaturalPerson.class.getName());
+    	@SuppressWarnings("rawtypes")
+		List<Future> list = new ArrayList<>();
+    	
+    	list.add(vertx.deployVerticle(VRTCL_16_DownloadCreditReportNaturalPerson.class.getName()));
 
+        CompositeFuture.join(list).onComplete(handler->{
+        	
+        	if(handler.failed()) {
+        		logger.error("Deploy.Verticle.Failed:", handler.cause());
+                vertx.close();
+                System.exit(0);
+        	}
+
+            String version = "";
+            try {
+            	final Properties properties = new Properties();
+    			properties.load(EntryPoint.class.getClassLoader().getResourceAsStream("project.properties"));
+    			version = properties.getProperty("version");
+    		} catch (Exception e) {
+    			e.printStackTrace();
+    		}
+        	
+        	System.out.println();
+        	System.out.println();
+        	System.out.println("***************************************************************************");
+        	System.out.println("***************************************************************************");
+        	System.out.println("*******************************LOAN_DOWNLOAD_START*************************");
+        	System.out.println("*******************************"+ version+ "******************");
+        	System.out.println("***************************************************************************");
+        	System.out.println("***************************************************************************");
+        	System.out.println();
+        	System.out.println();
+        	
+    	});
     }
 
     @Override
